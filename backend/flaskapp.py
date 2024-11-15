@@ -65,9 +65,9 @@ def scrape_product_data(url):
 
 # Function to send email alerts
 def send_email_alert(to_email, product_name, price_value):
-    from_email = "christi23bcd19@iiitkottayam.ac.in"  # Use just the email here
+    from_email = "your_email"  # Use just the email here
     display_name = "SnakeBytes"  # Set the display name separately
-    app_password = "xsnh hdhi diuw vrnd"  # Use the App Password you created
+    app_password = "your_password"  # Use the App Password you created
 
     subject = f"Price Drop Alert for {product_name}"
     body = f"The price of '{product_name}' has dropped to {price_value}!"
